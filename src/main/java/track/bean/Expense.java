@@ -12,7 +12,6 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "financetracker")
 public class Expense {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
